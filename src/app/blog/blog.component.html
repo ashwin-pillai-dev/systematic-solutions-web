@@ -1,0 +1,246 @@
+
+
+<!doctype html>
+<html class="no-js" lang="en">
+    
+<head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="App Landing, Landing Page, Apps, sass, software company">
+        <meta name="description" content="Xavi is clean, modern and responsive App Landing website template.">
+        <meta property="og:site_name" content="Xavi">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Systematic Solutions: App Landing HTML template">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Systematic Solutions: App Landing HTML template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/faviconLogo.png">
+
+
+    </head>
+    <body>
+
+        <!-- preloader -->
+        <!-- <div id="preloader">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- preloader-end -->
+            <!-- breadcrumb-area -->
+            <!-- <div class="breadcrumb-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <div class="breadcrumb-content">
+                                <div class="breadcrumb-title">
+                                    <h2 class="title">Blog Standard</h2>
+                                </div>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Blog Page</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- breadcrumb-area-end -->
+
+            <!-- blog-area -->
+            <section class="blog-area pt-120 pb-120">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div *ngFor="let blog of blogs" class="blog-standard-item">
+                                <div class="blog-thumb">
+                                  <a href="blog-details.html"><img [src]="blog.image" alt=""></a>
+                                </div>
+                                <div class="blog-standard-content">
+                                  <div class="blog-post-meta">
+                                    <ul>
+                                      <li><i class="far fa-user"></i> By <a href="#">Admin</a></li>
+                                      <li><i class="far fa-clock"></i> {{ blog.date }}</li>
+                                      <li><i class="far fa-comments"></i><a href="#">0 Comment</a></li>
+                                    </ul>
+                                  </div>
+                                  <h2 class="title"><a href="blog-details.html">{{ blog.name }}</a></h2>
+                                  <p>{{ blog.description }}</p>
+                                  <a href="blog-details.html" class="read-more btn">Read More</a>
+                                </div>
+                              </div>
+                              
+                            <!-- <div class="blog-standard-item">
+                                <div class="blog-thumb">
+                                    <a href="blog-details.html"><img src="assets/img/blog/blog_post_thumb01.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-standard-content">
+                                    <div class="blog-post-meta">
+                                        <ul>
+                                            <li><i class="far fa-user"></i> By <a href="#">Admin</a></li>
+                                            <li><i class="far fa-clock"></i> Mar 10, 2022</li>
+                                            <li><i class="far fa-comments"></i><a href="#">0 Comment</a></li>
+                                        </ul>
+                                    </div>
+                                    <h2 class="title"><a href="blog-details.html">Monthly Web Development Update the Name Hurricane Web-To-End-Integrity.</a></h2>
+                                    <p>Forem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrue adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrue.</p>
+                                    <a href="blog-details.html" class="read-more btn">Read More</a>
+                                </div>
+                            </div>
+                            <div class="blog-standard-item">
+                                <div class="blog-thumb ratio ratio-16x9">
+                                    <iframe src="https://player.vimeo.com/video/295525907" title="Blog video" allowfullscreen></iframe>
+                                </div>
+                                <div class="blog-standard-content">
+                                    <div class="blog-post-meta">
+                                        <ul>
+                                            <li><i class="far fa-user"></i> By <a href="#">Admin</a></li>
+                                            <li><i class="far fa-clock"></i> Mar 10, 2022</li>
+                                            <li><i class="far fa-comments"></i><a href="#">0 Comment</a></li>
+                                        </ul>
+                                    </div>
+                                    <h2 class="title"><a href="blog-details.html">Practical Suggestions To Improve Usability Of Landing Pages With Animation.</a></h2>
+                                    <p>Forem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrue adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrue.</p>
+                                    <a href="blog-details.html" class="read-more btn">Read More</a>
+                                </div>
+                            </div> -->
+                            <div class="blog-standard-item">
+                                <div class="blog-thumb">
+                                    <a href="blog-details.html"><img src="assets/img/blog/blog_post_thumb02.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-standard-content">
+                                    <div class="blog-post-meta">
+                                        <ul>
+                                            <li><i class="far fa-user"></i> By <a href="#">Admin</a></li>
+                                            <li><i class="far fa-clock"></i> Mar 10, 2022</li>
+                                            <li><i class="far fa-comments"></i><a href="#">0 Comment</a></li>
+                                        </ul>
+                                    </div>
+                                    <h2 class="title"><a href="blog-details.html">Practical Suggestions To Improve Usability Of Landing Pages With Animation.</a></h2>
+                                    <p>Forem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrue adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrue.</p>
+                                    <a href="blog-details.html" class="read-more btn">Read More</a>
+                                </div>
+                            </div>
+                            <div class="pagination-wrap mt-40">
+                                <ul>
+                                    <li class="prv-next"><a href="blog-standard.html"><i class="fas fa-angle-double-left"></i></a></li>
+                                    <li><a href="blog-standard.html">1</a></li>
+                                    <li class="active"><a href="#">2</a></li>
+                                    <li><a href="blog-standard.html">3</a></li>
+                                    <li><a href="blog-standard.html">...</a></li>
+                                    <li><a href="blog-standard.html">10</a></li>
+                                    <li class="prv-right"><a href="blog-standard.html"><i class="fas fa-angle-double-right"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <aside class="blog-sidebar">
+                                <div class="widget">
+                                    <h4 class="widget-title">Search</h4>
+                                    <div class="sidebar-search-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search ...">
+                                            <button><i class="fas fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="widget">
+                                    <h4 class="widget-title">Recent Posts</h4>
+                                    <div class="rc-post-list">
+                                        <ul>
+                                            <li>
+                                                <div class="rc-post-thumb">
+                                                    <a href="blog-details.html"><img src="assets/img/blog/rc_post_thumb01.jpg" alt=""></a>
+                                                </div>
+                                                <div class="rc-post-content">
+                                                    <h6 class="title"><a href="blog-details.html">How Manage Apps Online Reputation</a></h6>
+                                                    <span class="date"><i class="far fa-calendar-alt"></i> August 19, 2022</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="rc-post-thumb">
+                                                    <a href="blog-details.html"><img src="assets/img/blog/rc_post_thumb02.jpg" alt=""></a>
+                                                </div>
+                                                <div class="rc-post-content">
+                                                    <h6 class="title"><a href="blog-details.html">Consulting is defined as the practise</a></h6>
+                                                    <span class="date"><i class="far fa-calendar-alt"></i> August 19, 2022</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="rc-post-thumb">
+                                                    <a href="blog-details.html"><img src="assets/img/blog/rc_post_thumb03.jpg" alt=""></a>
+                                                </div>
+                                                <div class="rc-post-content">
+                                                    <h6 class="title"><a href="blog-details.html">Marketing consulting Online Business</a></h6>
+                                                    <span class="date"><i class="far fa-calendar-alt"></i> August 19, 2022</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="widget">
+                                    <h4 class="widget-title">Categories</h4>
+                                    <div class="sidebar-cat-list">
+                                        <ul>
+                                            <li><a href="#">Consultancy Service? <i class="fas fa-angle-double-right"></i></a></li>
+                                            <li><a href="#">Knowledge Base <i class="fas fa-angle-double-right"></i></a></li>
+                                            <li><a href="#">Online Business <i class="fas fa-angle-double-right"></i></a></li>
+                                            <li><a href="#">Remote Work <i class="fas fa-angle-double-right"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="widget">
+                                    <div class="sidebar-add">
+                                        <h4 class="title">Do You Love Our Template</h4>
+                                        <a href="https://themeforest.net/item/xavi-app-landing-html5-template/22982082" target="_blank" class="btn">purchase now</a>
+                                    </div>
+                                </div>
+                                <div class="widget">
+                                    <h4 class="widget-title">Tag Cloud</h4>
+                                    <div class="sidebar-tag-list">
+                                        <ul>
+                                            <li><a href="#"># Business</a></li>
+                                            <li><a href="#"># Knowledge</a></li>
+                                            <li><a href="#"># Work</a></li>
+                                            <li><a href="#"># Online</a></li>
+                                            <li><a href="#"># Who</a></li>
+                                            <li><a href="#"># Technology</a></li>
+                                            <li><a href="#"># Consult</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- blog-area-end -->
+
+
+
+
+        <!-- JS here -->
+        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/one-page-nav-min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/validator.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.waypoints.min.js"></script>
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="assets/js/jquery.mb.YT.js"></script>
+        <script src="assets/js/ajax-form.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+
+<!-- Mirrored from themeadapt.com/tf/xavi-prev/xavi/blog-standard.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Dec 2022 14:03:30 GMT -->
+</html>
